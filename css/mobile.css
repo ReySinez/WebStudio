@@ -1,0 +1,17 @@
+@media screen and (min-width: 320px) {
+  /*--------------MAIN-TEAM--------------*/
+
+  .container {
+    max-width: 426px;
+  }
+
+  .main-team-container {
+    max-width: 294px;
+  }
+
+  .main-cust-container {
+    max-width: 426px;
+  }
+
+  /*--------------MAIN-TEAM-END--------------*/
+}
