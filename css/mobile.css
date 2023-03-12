@@ -24,30 +24,4 @@
     gap: 16px;
     row-gap: 72px;
   }
-
-  .main-page {
-    color: var(--main-text-button-2, #ffffff);
-    background: var(--main-background-studio, #2e2f42);
-
-    padding-top: 112px;
-    padding-bottom: 112px;
-
-    background-image: var(--l-gra), url(../images/people-office-mobile.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    object-fit: cover;
-
-    display: block;
-  }
-
-  @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    .main-page {
-      background-image: var(--l-gra), url(../images/people-office-mobile-2x.jpg);
-      background-repeat: no-repeat;
-      background-position: center;
-      object-fit: cover;
-    }
-  }
 }
