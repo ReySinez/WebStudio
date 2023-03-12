@@ -241,6 +241,7 @@ body {
 }
 @media screen and (min-width: 481px) {
   .main-page {
+    height: 436px;
     background-image: linear-gradient(
         to right,
         rgba(46, 47, 66, 0.7),
@@ -252,6 +253,7 @@ body {
 @media screen and (min-width: 769px) {
   .main-page {
     padding: 188px 0px;
+    height: 600px;
     background-image: linear-gradient(
         to right,
         rgba(46, 47, 66, 0.7),
@@ -1074,7 +1076,7 @@ body {
   transform: translate(-50%, -50%) scale(1);
 
   width: 100%;
-  min-height: 100%;
+  min-height: 586px;
   background: #fcfcfc;
   border-radius: 4px;
   overflow: auto;

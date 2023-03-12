@@ -2,7 +2,7 @@
   /*--------------MAIN-TEAM--------------*/
 
   .container {
-    max-width: 766px;
+    max-width: 768px;
   }
 
   .main-team-container {
@@ -115,7 +115,8 @@
     flex-direction: row;
     justify-content: flex-start;
     flex-wrap: wrap;
-    gap: 22px;
+    gap: 24px;
+    row-gap: 72px;
   }
 
   .main-title-desc {
@@ -160,7 +161,7 @@
 
     color: var(--main-text-button-2, #ffffff);
 
-    margin-bottom: 72px;
+    margin-bottom: 36px;
 
     width: 496px;
   }
@@ -229,6 +230,7 @@
   /*--------------MAIN-FOOTER-END---------------*/
 
   .main-page {
+    height: 436px;
     padding: 112px 0px;
   }
 

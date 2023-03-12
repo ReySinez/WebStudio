@@ -2,7 +2,7 @@
   /*--------------MAIN-TEAM--------------*/
 
   .container {
-    max-width: 1158px;
+    max-width: 1200px;
   }
 
   .footer-index2 {
@@ -40,11 +40,16 @@
     width: calc((100% - 90px) / 4);
   }
 
+  .header-logo {
+    margin-right: 76px;
+  }
+
   /*--------------MAIN-TEAM-END--------------*/
 
   /*--------------MAIN-TEAM-FEATURES---------------*/
 
   .main-page {
+    height: 600px;
     padding: 188px 0px;
   }
 
@@ -95,6 +100,19 @@
 
   .main-subtitle {
     display: flex;
+  }
+
+  .main-text-btn {
+    margin-bottom: 48px;
+  }
+
+  .main-team-container {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .modal-input-footer {
+    margin-bottom: 0px;
   }
 
   /*--------------MAIN-TEAM-SUBTITLE-END---------------*/
