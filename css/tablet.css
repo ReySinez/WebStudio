@@ -20,6 +20,10 @@
 
   /*--------------MAIN-FOOTER--------------*/
 
+  .header-main {
+    padding-bottom: 10px;
+  }
+
   .header-btn-container {
     display: none;
   }
@@ -109,9 +113,9 @@
   .main-list {
     display: flex;
     flex-direction: row;
+    justify-content: flex-start;
     flex-wrap: wrap;
-    gap: 24px;
-    row-gap: 72px;
+    gap: 22px;
   }
 
   .main-title-desc {
@@ -225,18 +229,7 @@
   /*--------------MAIN-FOOTER-END---------------*/
 
   .main-page {
-    color: var(--main-text-button-2, #ffffff);
-    background: var(--main-background-studio, #2e2f42);
-
-    padding-top: 112px;
-    padding-bottom: 112px;
-
-    background-image: var(--l-gra), url(../images/people-office-tablet.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    object-fit: cover;
-
-    display: block;
+    padding: 112px 0px;
   }
 
   @media (min-device-pixel-ratio: 2),

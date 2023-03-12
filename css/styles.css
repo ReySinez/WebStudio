@@ -50,8 +50,6 @@ body {
   margin: 0 auto;
   padding: 0 16px;
   max-width: 428px;
-
-  outline: 2px solid red;
 }
 
 .hidden {
@@ -243,7 +241,6 @@ body {
 }
 @media screen and (min-width: 481px) {
   .main-page {
-    padding: 112px 0 108px;
     background-image: linear-gradient(
         to right,
         rgba(46, 47, 66, 0.7),
@@ -254,7 +251,7 @@ body {
 }
 @media screen and (min-width: 769px) {
   .main-page {
-    padding: 188px 0;
+    padding: 188px 0px;
     background-image: linear-gradient(
         to right,
         rgba(46, 47, 66, 0.7),
@@ -282,7 +279,6 @@ body {
   screen and (min-resolution: 192dpi) and (min-width: 481px),
   screen and (min-resolution: 2dppx) and (min-width: 481px) {
   .main-page {
-    padding: 112px 0 108px;
     background-image: linear-gradient(
         to right,
         rgba(46, 47, 66, 0.7),
