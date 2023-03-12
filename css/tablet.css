@@ -11,6 +11,7 @@
 
   .main-cust-container {
     max-width: 582px;
+    padding: 0px;
   }
 
   .footer-index2 {
@@ -87,10 +88,12 @@
 
   /*--------------MAIN-TEAM-CUSTOMERS--------------*/
 
+  /*--------------MAIN-TEAM-CUSTOMERS_END--------------*/
+
   .main-cust-list {
     display: flex;
+    align-items: center;
     justify-content: center;
-    flex-direction: row;
     flex-wrap: wrap;
     gap: 24px;
     row-gap: 72px;
@@ -100,7 +103,6 @@
     width: 168px;
     height: 88px;
   }
-  /*--------------MAIN-TEAM-CUSTOMERS_END--------------*/
 
   /*--------------MAIN-TEAM_FEATURES---------------*/
 
@@ -221,4 +223,30 @@
   }
 
   /*--------------MAIN-FOOTER-END---------------*/
+
+  .main-page {
+    color: var(--main-text-button-2, #ffffff);
+    background: var(--main-background-studio, #2e2f42);
+
+    padding-top: 112px;
+    padding-bottom: 112px;
+
+    background-image: var(--l-gra), url(../images/people-office-tablet.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+
+    display: block;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .main-page {
+      background-image: var(--l-gra), url(../images/people-office-table-2x.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      object-fit: cover;
+    }
+  }
 }

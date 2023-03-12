@@ -48,7 +48,7 @@ body {
   width: 100%;
 
   margin: 0 auto;
-  padding: 0 16px 0;
+  padding: 0 16px;
   max-width: 428px;
 
   outline: 2px solid red;
@@ -69,7 +69,8 @@ body {
 .header-main {
   border-bottom: 1px solid #e7e9fc;
 
-  padding-top: 25.5px;
+  padding-top: 24px;
+  padding-bottom: 22px;
 }
 
 .header-container {
@@ -234,7 +235,10 @@ body {
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .main-page {
-    background-image: var(--l-gra), url(../images/people-office-2x.jpg);
+    background-image: var(--l-gra), url(../images/people-office.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
   }
 }
 
@@ -1009,14 +1013,21 @@ body {
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
 
-  max-width: 392px;
-  min-height: 584px;
+  width: 100%;
+  min-height: 100%;
   background: #fcfcfc;
   border-radius: 4px;
 
   padding: 24px;
 
   transition: transform 250ms linear;
+}
+
+@media screen and (min-width: 392px) {
+  .modal {
+    max-width: 392px;
+    min-height: 586px;
+  }
 }
 
 .backdrop.is-hidden .modal {
