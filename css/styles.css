@@ -1009,7 +1009,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
 
-  width: 408px;
+  max-width: 392px;
   min-height: 584px;
   background: #fcfcfc;
   border-radius: 4px;
